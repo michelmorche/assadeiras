@@ -1,0 +1,164 @@
+body{
+  margin: auto;
+max-width: 1440px;
+font-family: sans-serif;
+background-color: #e24b4b;
+color: white;
+}
+
+header{
+padding: 1rem;
+  text-align: center;
+  background-color: #ef0101;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #008075;
+  font-weight: bold;
+}
+
+img{
+  width: 100%;
+}
+
+.banner{
+  text-align: center;
+}
+
+.itinerario{
+  text-align: center;
+  background-color: #001f33;
+  border-radius: 2rem;
+  width: 90%;
+  margin: auto;
+}
+
+#itinerario{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.itinerario{
+  width: 100%;
+  max-width: 19rem;
+  display: block;
+  margin: 0auto;
+}
+
+.itinerario-img{
+  height: 15rem;
+  objekt-fit: cover;
+}
+
+.titulo-disciplinas{
+  margin: 6rem 2.5rem 1rem 2.5rem;
+  text-align: center;
+}
+
+.disciplina img{
+  width: 30rem;
+  height: 25rem;
+  object-fit: cover;
+  margin: auto;
+  border-radius: 1rem;
+}
+
+.disciplina{
+  text-align: center;
+}
+
+footer{
+  margin-top: 6 rem;
+  background-color: black;
+}
+
+.rodape-icones{
+  padding: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.rodape-icones i{
+  margin: 1rem;
+}
+
+.rodape-credito{
+  padding: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  border-top: 0.1rem solid white;
+}
+
+/*A partir de 768px terá os sequintes ajustes*/
+@media (min-width: 768px){
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+  }
+  
+  .banner-conteudo{
+    width: 50%;
+    font-size: 1.5rem;
+  }
+
+  .banner-img{
+    width: 60%;
+  }
+
+  #itinerario{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .itinerario{
+    width: 40%;
+  }
+
+  .itinerario-img{
+    height: 75%;
+  }
+
+  .disciplina{
+    width: 31%;
+  }
+
+  #displinas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .disciplina{
+    height:35rem;
+    object-fit:cover;
+    max-width: 17rem;
+  }
+  
+  @media (min-width: 1024px){
+    .itinerario{
+      width: 23%;
+      min-height; 30rem;
+}
+
+
+    .disciplina img{
+      max-width: 25rem;
+    }
+  }
